@@ -1,0 +1,57 @@
+.carousel-inner {
+    height: 500px !important;
+}
+
+.carousel-caption {
+    margin-bottom: 4rem !important;
+}
+
+.text {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.carousel-caption h5 span {
+    color: rgb(245, 245, 106);
+}
+
+.text5 {
+    font-size: 36px;
+}
+
+.text5 .text-justify span {
+    font-size: 45px;
+    color: rgb(245, 245, 106);
+}
+
+@media only screen and (max-width: 767px){
+
+    .carousel-caption h5 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .text5 .text-justify span {
+        font-size: 35px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px){
+    .carousel-caption h5 {
+        color: rgb(245, 245, 106);
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .carousel-caption h5 {
+        color: rgb(245, 245, 106);
+    }
+
+    .text5 .text-justify span {
+        font-size: 35px;
+    }
+}
+
+
+  
